@@ -1,0 +1,9 @@
+C:\Users\Cliff\Desktop\git projects\EmulatorHub\EmulatorHub\bin\Debug\EmulatorHub.exe.config
+C:\Users\Cliff\Desktop\git projects\EmulatorHub\EmulatorHub\bin\Debug\EmulatorHub.exe
+C:\Users\Cliff\Desktop\git projects\EmulatorHub\EmulatorHub\bin\Debug\EmulatorHub.pdb
+C:\Users\Cliff\Desktop\git projects\EmulatorHub\EmulatorHub\obj\Debug\EmulatorHub.csprojAssemblyReference.cache
+C:\Users\Cliff\Desktop\git projects\EmulatorHub\EmulatorHub\obj\Debug\EmulatorHub.Properties.Resources.resources
+C:\Users\Cliff\Desktop\git projects\EmulatorHub\EmulatorHub\obj\Debug\EmulatorHub.csproj.GenerateResource.cache
+C:\Users\Cliff\Desktop\git projects\EmulatorHub\EmulatorHub\obj\Debug\EmulatorHub.csproj.CoreCompileInputs.cache
+C:\Users\Cliff\Desktop\git projects\EmulatorHub\EmulatorHub\obj\Debug\EmulatorHub.exe
+C:\Users\Cliff\Desktop\git projects\EmulatorHub\EmulatorHub\obj\Debug\EmulatorHub.pdb
