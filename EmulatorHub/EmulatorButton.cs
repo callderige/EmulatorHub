@@ -10,6 +10,8 @@ namespace EmulatorHub
         public EmulatorButton(string exePath)
         {
             this.Text = exePath.Remove(0, exePath.LastIndexOf("\\") + 1);
+            this.Text = Text.Replace(".exe", "");
+            this.Text = Text.Replace(".lnk", "");
             this.ExePath = exePath;
             this.Click += new EventHandler(ButtonClick);
             this.AutoSize = true;

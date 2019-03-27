@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Linq;
 
 namespace EmulatorHub
 {
@@ -49,7 +50,17 @@ namespace EmulatorHub
             int offsetY = 0;
             foreach (string dir in Directory.GetDirectories(emulatorDirectory))
             {
-                foreach (string file in Directory.GetFiles(dir, "*.exe"))
+                foreach (string file in Directory.GetFiles(dir, "*.exe*"))
+                {
+                    EmulatorButton emulatorButton = new EmulatorButton(file);
+                    emulatorButton.Location = new System.Drawing.Point(100, 100 + (30 * offsetY));
+                    this.Controls.Add(emulatorButton);
+                    offsetY++;
+                }
+            }
+            foreach (string file in Directory.GetFiles(emulatorDirectory))
+            {
+                if (file.Contains("PS2.lnk"))
                 {
                     EmulatorButton emulatorButton = new EmulatorButton(file);
                     emulatorButton.Location = new System.Drawing.Point(100, 100 + (30 * offsetY));
